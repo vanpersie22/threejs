@@ -54,12 +54,12 @@ function addStar() {
 
 Array(200).fill().forEach(addStar)
 
-const spaceTexture = new THREE.TextureLoader().load('matCap-shiny.jpg');
+const spaceTexture = new THREE.TextureLoader().load('/assets/matCap-shiny.jpg');
 scene.background = spaceTexture;
 
 // Avater
-const jeffTexture = new THREE.TextureLoader().load('IMG_20240427_093354_493.jpg');
-const normalTexture = new THREE.TextureLoader().load('earth.jpg');
+const jeffTexture = new THREE.TextureLoader().load('/assets/IMG_20240427_093354_493.jpg');
+const normalTexture = new THREE.TextureLoader().load('/assets/earth.jpg');
 
 const jeff = new THREE.Mesh(
   new THREE.BoxGeometry(3,3,3),
