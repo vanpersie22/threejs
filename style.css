@@ -695,3 +695,7 @@ form {
   color: #c4c5c7 ;
 
 }
+
+.card .card-title{
+  padding: 5px;
+}
